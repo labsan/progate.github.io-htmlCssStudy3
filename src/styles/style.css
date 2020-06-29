@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Grande";
+}
+
+/* open - All Property */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* close - All Property */
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    color: #ffffff;
+    opacity: 0.8;
+
+    /* #4 - Menyesuaikan Layout pada class top-wrapper */
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-top: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn-wrapper {
+    margin: 10px 0;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.7);
+
+    /* Menambahkan Properti agar Header berada selalu diatas (fixed) */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.menu-icon {
+    float: right;
+    display: none;
+    margin-top: 21px;
+    font-size: 25px;
+    color: white;
+}
+
+.header-right {
+    float: right;
+    background-color: transparent;
+}
+
+.menu:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.5s;
+}
+
+.header-right ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.header-right a {
+    padding: 0 25px;
+    display: block;
+
+    line-height: 65px;
+    /*nilai disamakan dengan nilai tinggi pada Layout Header*/
+
+    color: #ffffff;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding: 80px 0 30px 0;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.txt-contents {
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.message-wrapper {
+    padding-bottom: 80px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+
+    top: 7px;
+    /*nilai ini disesuaikan dengan nilai vertical box-shadow yang diberikan*/
+
+    box-shadow: none;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #b3aeb5;
+}
+
+footer {
+    margin: 30px 0;
+}

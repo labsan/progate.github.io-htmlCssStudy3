@@ -1,0 +1,71 @@
+/* For Tablets */
+@media (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 670px) {
+    .top-wrapper {
+        padding-top: 130px;
+    }
+
+    .top-wrapper .container {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .btn {
+        width: 90%;
+    }
+
+    .facebook {
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .header-right {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        right: 0;
+        margin-top: 15px;
+    }
+
+    .header-right li {
+        width: 100%;
+        background-color: rgba(34, 49, 52, 0.7);
+    }
+
+    .lesson {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
